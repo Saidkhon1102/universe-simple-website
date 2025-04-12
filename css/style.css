@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/bg-image-main.jpg);
+  height: 100vh;
+  justify-content: center;
+  background-size: cover;
+  background-position:center;
+}
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    color: white;
+   background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+title{
+    font-size: 50px;
+ 
+}
+
+.list{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+
+
+#merkuriy{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/mercury.avif);
+    
+
+}
+
+#venera{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/venus.avif);
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    
+}
+
+#yer{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/earth.avif)
+}
+#mars{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/mars.avif);
+}
+
+#yupiter{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/jupiter.avif)
+}
+
+#saturn{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/saturn.avif)
+}
+#neptun{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/neptune.avif)
+}
+#uran{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/uranus.avif)
+}
